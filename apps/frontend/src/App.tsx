@@ -1,7 +1,6 @@
 import { Box, Container, VStack } from "@chakra-ui/react";
 import { Home } from "./pages/Home";
 import { Navbar } from "./components/Navbar";
-import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
           <Container maxW="container.lg" h="full">
             <VStack align="stretch">
               <Home />
-              <Footer />
             </VStack>
           </Container>
         </VStack>

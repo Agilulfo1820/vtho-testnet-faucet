@@ -16,7 +16,7 @@ import {ERC1967Utils} from "@openzeppelin/contracts/proxy/ERC1967/ERC1967Utils.s
  */
 // https://stackoverflow.com/a/61678986/7302689
 // solc-ignore-next-line missing-receive
-contract AAProxy is Proxy {
+contract ProxyContract is Proxy {
     /**
      * @dev Initializes the upgradeable proxy with an initial implementation specified by `implementation`.
      *

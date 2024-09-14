@@ -16,7 +16,7 @@ const config = getConfig(import.meta.env.VITE_APP_ENV);
 const walletConnectOptions: WalletConnectOptions = {
   projectId: "a0b855ceaf109dbc8426479a4c3d38d8",
   metadata: {
-    name: "AA Factory",
+    name: "Faucet",
     description: "A sample VeChain dApp",
     url: window.location.origin,
     icons: [`${window.location.origin}/images/logo/my-dapp.png`],

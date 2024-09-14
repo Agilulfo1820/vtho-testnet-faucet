@@ -19,11 +19,11 @@ export const Navbar = () => {
         <Image
           src={logo}
           alt="logo"
-          w={"25px"}
-          // h="400px"
+          // w={"25px"}
+          h="40px"
           rounded="full"
         />
-        <Heading size={"sm"}>AA Factory</Heading>
+        <Heading size={"sm"}>VTHO Faucet</Heading>
       </HStack>
 
       <HStack spacing={4}>
